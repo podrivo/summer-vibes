@@ -81,10 +81,10 @@ ul li:after {content:''; background:#774f4e; width:18px; height:180px; position:
 ul li:first-child:after {top:3px;}
 ul li:last-child:after {top:-2px;}
 
-span {background:#919dbe; display:block; width:12px; height:100px; position:absolute; top:50%; left:50%; margin:10px 0 0 -93px; animation:inflate 2s ease-in-out infinite;}
+span {background:#919dbe; display:block; width:15px; height:100px; position:absolute; top:50%; left:50%; margin:10px 0 0 -95px; animation:inflate 2s ease-in-out infinite;}
 
 @keyframes inflate {
-  50% {width:15px; margin-left:-95px;}
+  50% {width:12px; margin-left:-93px;}
 }
 
 q {width:40px; height:40px; background:#919dbe; position:absolute; top:50%; left:50%; margin:90px 0 0 -107px; border-radius:200px; transform:rotateX(75deg); animation:flow 2s ease-in-out infinite;}
